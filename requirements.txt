@@ -1,0 +1,2 @@
+sudo apt install python3-venv python3-pip libgl1 libglib2.0-0
+pip install opencv-python mediapipe scikit-learn pandas
