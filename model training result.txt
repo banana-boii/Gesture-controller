@@ -1,0 +1,27 @@
+Command: python3 train_model.py
+loading data
+data loaded 13478 frames
+
+Model Evaluation
+Overall accuracy: 99.55%
+
+Classification Report:
+                precision    recall  f1-score   support
+
+   closed fist       1.00      1.00      1.00       251
+   idle/normal       1.00      0.99      0.99       360
+     okay sign       1.00      1.00      1.00       256
+     open palm       1.00      1.00      1.00       259
+ pointing left       1.00      1.00      1.00       237
+pointing right       1.00      1.00      1.00       230
+     swip left       0.99      0.98      0.99       280
+    swip right       0.98      1.00      0.99       346
+   thumbs down       0.99      0.99      0.99       199
+     thumbs up       1.00      1.00      1.00       278
+
+      accuracy                           1.00      2696
+     macro avg       1.00      1.00      1.00      2696
+  weighted avg       1.00      1.00      1.00      2696
+
+
+Model successfuly saved as 'gesture_model.pkl'
